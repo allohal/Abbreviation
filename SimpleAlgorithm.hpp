@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ABBREVIATION_SIMPLEALGORITHM_HPP_
+#define ABBREVIATION_SIMPLEALGORITHM_HPP_
+
 ////////////////////////////////////////////////////////////////////////
 ////////////////////œ–Œ—“≈…ÿ»≈//////¿¡¡–≈¬»¿“”–€////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -7,11 +9,8 @@
 
 class SimpleAlgorithm : public AbstractAlgorithm {
 public:
-	void search(std::vector<std::string>& v);
-
+	void search() override;
 private:
-	int wordsCount;
-	std::string abbr;
-	void searchRus(std::vector<std::string>& v);
-	void searchEng(std::vector<std::string>& v);
+	void searchSimpleAbbr(std::vector<std::string> &text, const bool &language);
 };
+#endif 

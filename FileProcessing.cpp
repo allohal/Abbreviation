@@ -1,19 +1,28 @@
 #include "FileProcessing.hpp"
 
 std::vector<std::string> FileProcessing::readFile(const std::string &path) {
-	std::ifstream fin(path);
-	if (fin) {
-		std::cout << "File is opened" << std::endl;
-		std::cout << "Text: " << std::endl;
-		while (fin >> str) {
-			std::cout << str;
-			words.push_back(str);
+	std::ifstream file_input_stream(path);
+	if (file_input_stream) {
+		std::cout << "File is opened\nText: " << std::endl;
+
+		// read word by word from file to string
+		while (file_input_stream >> word) {
+			text_on_one_string += word + " ";
+		}
+		// replace all '-' to space on the string
+		replace(text_on_one_string.begin(), text_on_one_string.end(), '-', ' ');
+
+		// and then read and push_back word by word from this string(without '-');
+		std::stringstream str_stream(text_on_one_string);
+		while (str_stream >> word) {
+			std::cout << word << " ";
+			vector_with_text.push_back(word);
 		}
 	}
 	else {
-		std::cout << "File isn`t opened" << std::endl;
+		std::cerr << "File isn`t opened" << std::endl;
 	}
 	std::cout << "\n";
-	fin.close();
-	return words;
+	file_input_stream.close();
+	return vector_with_text;
 }
