@@ -1,0 +1,42 @@
+Transcript: by the way 
+Abbreviation: BTW
+
+Transcript: if you know what I mean 
+Abbreviation: IYKWIM
+
+Transcript: mind your own business 
+Abbreviation: MYOB
+
+Transcript: Автоматизированные системы контроля и учета энергии 
+Abbreviation: АСКУЭ
+
+Transcript: Арктический и Балтийский научно исследовательский институт имени Александра Жукова 
+Abbreviation: АБНИИАЖ
+
+Transcript: Государственное бюджетное учреждение культуры художественный музей имени М.С. Туганова 
+Abbreviation: ГХМ
+
+Transcript: Объектно ориентиированное программиирование 
+Abbreviation: ООП
+
+Transcript: Отдел искусства и культуры античного мира 
+Abbreviation: ОАМ
+
+Transcript: Пермская губернская ученая архивная комиссия 
+Abbreviation: ПУАК
+
+Transcript: Таганрогский и литературный и историко архитектурный и музей заповедник 
+Abbreviation: ТЛИАМЗ
+
+Transcript: духовный шимерский историко краеведческий музей заповедник флоры и фауны 
+Abbreviation: ДШИКМЗФФ
+
+Transcript: заработная плата 
+Abbreviation: ЗП
+
+Transcript: основы программирования 
+Abbreviation: ОП
+
+Transcript: структура и организация данных 
+Abbreviation: СиОД
+
